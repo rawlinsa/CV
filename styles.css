@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+H1 {
+  Margin: 50px auto 0 auto;
+  font-size: 5.5rem;
+  font-family: 'Sacramento', cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  Margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+h3 {
+  Margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #11999E;
+  font-weight: normal;
+}
+
+p {
+    line-height: 2;
+    color: black;
+}
+
+hr {
+  border: dotted #A9A9A9 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.banner-container {
+  background-color: #66BFBF;
+}
+
+.top-container {
+  background-color: #E4f9f5;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #E4f9f5;
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 25px 0 20px;
+}
+
+.intro-txt {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 75%;
+  padding: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  Margin: 50px auto 50px auto;
+  text-align: left;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+}
+
+.aaron-head {
+  padding: 100px 0 100px 0;
+}
+
+.security-img {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.programming-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.risk-img {
+  width: 25%;
+  float: right;
+  margin-right: 30px
+}
+
+.cloud-arch {
+  width: 25%;
+  float: left;
+  margin-right: 30px
+}
+
+
+
+.contact-button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #0ea4aa;
+    border-radius: 8px;
+    background: #16ffff;
+    background: -moz-linear-gradient(top, #16ffff, #0ea4aa);
+    background: linear-gradient(to bottom, #16ffff, #0ea4aa);
+    box-shadow: #14f6fe 0px 0px 40px 0px;
+    text-shadow: #09676a 1px 1px 1px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+.contact-button:hover,
+.contact-button:focus {
+    border: 1px solid #11cdd4;
+    background: #1affff;
+    background: -moz-linear-gradient(top, #1affff, #11c5cc);
+    background: linear-gradient(to bottom, #1affff, #11c5cc);
+    color: #ffffff;
+    text-decoration: none;
+}
+.contact-button:active {
+    background: #0ea4aa;
+    background: -moz-linear-gradient(top, #0ea4aa, #0ea4aa);
+    background: linear-gradient(to bottom, #0ea4aa, #0ea4aa);
+}
