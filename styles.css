@@ -89,19 +89,22 @@ a:hover {
 .skill-row {
   width: 50%;
   Margin: 50px auto 50px auto;
-  text-align: left;
 }
 
-.top-cloud {
+.top-drone {
   position: absolute;
   right: 300px;
   top: 40px;
+  height: 5%;
+  width: 5%;
 
 }
 
-.bottom-cloud {
+.bottom-drone {
   position: absolute;
   left: 250px;
+  height: 5%;
+  width: 5%;
 }
 
 .aaron-head {
@@ -123,13 +126,13 @@ a:hover {
 .risk-img {
   width: 25%;
   float: right;
-  margin-right: 30px
+  margin-right: 30px;
 }
 
 .cloud-arch {
   width: 25%;
   float: left;
-  margin-right: 30px
+  margin-right: 30px;
 }
 
 
